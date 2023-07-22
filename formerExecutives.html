@@ -43,7 +43,7 @@
             Executive Committee 22-23
             <i class="fa fa-caret-down"></i>
           </button>
-          <div id="twenttwo-div" class="btn-content">
+          <div id="twentywo-div" class="btn-content">
               <h1>"Executive Panel 2022-2023”</h1>
               <p>
               President – Jarif Al Araf<br>
@@ -641,7 +641,17 @@ Organizer Secretary-Rifah Tasfia Ishadi<br>
     </div>
 
     <script>
-     
+
+var s = document.getElementById("twentywo-div")
+ s.style.display = "none";
+    function twentytwo() {
+      if (s.style.display === "none") {
+        s.style.display = "block";
+      } else {
+        s.style.display = "none";
+      }
+    }
+
   var a = document.getElementById("twentyone-div");
     a.style.display = "none";
     function twentyone() {
