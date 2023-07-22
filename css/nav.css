@@ -17,7 +17,7 @@
   position:fixed;
   right:0;
   top:0;
-  background:rgba(255, 255, 255, 0.8);
+  background:rgb(255, 255, 255);
   z-index:-1;
   transition: 0.3s ease-out;
 }
@@ -30,9 +30,9 @@ nav ul li a{
   color:#000000;
 }
 nav ul li a:hover{
-  color:#F5F4F4;
+  color:#161616;
   padding:0px;
-  background-color: #000000;
+  background-color: #ffffff;
 }
 #menubtn{
   position:fixed;
