@@ -35,7 +35,11 @@
     <div id="menubtn">
         <img src="img/bars.svg" alt="" id="menu" data-aos="zoom-in-left">
     </div>
-
+    <div id="imageModal" class="modal">
+        <span id="closeModal">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+    
 
     <div class="Activities">
 
@@ -170,7 +174,33 @@
         <h5>© Copyright - ISTARC || Designed by <a href="https://www.facebook.com/shourid75/" target="_blank">Asif Hasan Shourid</h5>
     </footer>
 
+<script >
+   
+var modal = document.getElementById("imageModal");
 
+var modalImg = document.getElementById("modalImage");
+var images = document.querySelectorAll(".activities-container .column img");
+var closeModal = document.getElementById("closeModal");
+
+images.forEach(function(image) {
+    image.onclick = function(){
+        modal.style.display = "flex";
+        modalImg.src = this.src;
+    }
+});
+
+
+closeModal.onclick = function() { 
+    modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+</script>
     <script>
         var menubtn = document.getElementById("menubtn")
         var sidenav = document.getElementById("sidenav")
