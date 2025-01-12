@@ -6,9 +6,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Function to close popup
     function closePopup() {
-        popup.style.opacity = '0';
+        popup.style.opacity = '0'; // Fade out the overlay
         setTimeout(() => {
-            popup.style.display = 'none'; 
+            popup.style.display = 'none';  // Hide the overlay completely
         }, 500); // Wait for the transition to finish
     }
 
@@ -21,4 +21,3 @@ document.addEventListener('DOMContentLoaded', function() {
     popup.style.display = 'flex';
     popup.style.opacity = '1'; 
 });
-
