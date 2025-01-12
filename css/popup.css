@@ -206,8 +206,3 @@
   .stars:nth-child(4) { top: 15%; left: 70%; animation-delay: 0.9s; }
   .stars:nth-child(5) { top: 70%; left: 85%; animation-delay: 1.2s; }
 
-  .popup-overlay {
-    /* ... existing styles ... */
-    opacity: 1;
-    transition: opacity 0.5s ease-out;
-}
