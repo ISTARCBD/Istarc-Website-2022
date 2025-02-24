@@ -2,7 +2,7 @@
 
 This is the official website of ISTARC.
 
-If you want to help/contribute please feels free...
+If you want to help/contribute please feel free...
 
 Want to report a bug? Open an issue.
 
