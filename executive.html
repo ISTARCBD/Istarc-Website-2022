@@ -57,9 +57,39 @@
 .hidden {
     display: none;
 }
+
+@media screen and (max-width: 700px) {
+    .button-group {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 20px;
+        width: 70%;
+        align-self: center;
+        justify-self: center;
+        padding-top: 25%;
+    }
+}
 </style>
 </head>
 <body style="background: rgb(69, 66, 66);">
+
+      <div id="sidenav">
+        <nav>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="executive.html">EXECUTIVES</a></li>
+            <li><a href="formerExecutives.html">FORMER EXECUTIVES</a></li>
+            <li><a href="images.html">GALLERY</a></li>
+            <li><a href="events.html">EVENTS</a></li>
+  
+          </ul>
+        </nav>
+      </div>
+      <div id="menubtn">
+        <img src="img/bars.svg" alt="" id="menu" data-aos="zoom-in-left">
+      </div>
 
  <div class="executives">
     <img src="img/logo (1).png" alt="" class="logo" data-aos="zoom-in-right" title="ISTARC">
@@ -167,8 +197,8 @@
                     <h3 class="title">Ahmed Nazran</h3>
                     <span class="post">Vice President Programming and Publication</span>
                     <ul class="social">
-                        <li><a target="_blank" href="" class="fa fa-facebook"></a></li>
-                        <li><a  target="_blank" href="" class="fa fa-instagram"></a></li>
+                        <li><a  target="_blank" href="https://github.com/Ahmed-Nazran" class="fa fa-github"></a></li>
+                        <li><a  target="_blank" href="https://www.instagram.com/von_beyond_the_void/" class="fa fa-instagram"></a></li>
 
                     </ul>
                 </div>
@@ -1108,23 +1138,7 @@
     </div>     
 
  <div>   
-    
-    <div id="sidenav">
-        <nav>
-          <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="about.html">ABOUT US</a></li>
-            <li><a href="executive.html">EXECUTIVES</a></li>
-            <li><a href="formerExecutives.html">FORMER EXECUTIVES</a></li>
-            <li><a href="images.html">GALLERY</a></li>
-            <li><a href="events.html">EVENTS</a></li>
-  
-          </ul>
-        </nav>
-      </div>
-      <div id="menubtn">
-        <img src="img/bars.svg" alt="" id="menu" data-aos="zoom-in-left">
-      </div>
+
   
       <footer>
       
